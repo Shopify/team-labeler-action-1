@@ -44,7 +44,7 @@ jobs:
   team-labeler:
     runs-on: ubuntu-latest
     steps:
-    - uses: JulienKode/team-labeler-action@v0.1.0
+    - uses: Shopify/team-labeler-action-1@master
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
 ```
